@@ -2,6 +2,11 @@
 using System.IO;
 using System.Security.Cryptography;
 
+/*
+ *  By Vallejo Juan Marcos
+ *
+ *  * */
+
 namespace FileHashGuard
 {
     internal enum EncryptionMethod
@@ -11,12 +16,6 @@ namespace FileHashGuard
     }
     public static class FileHashing
     {
-        /// <summary>
-        /// Constructor.
-        /// </summary>
-        /// <param name="path"></param>
-
-
         private static string _hash;
         private static string _path;
 
