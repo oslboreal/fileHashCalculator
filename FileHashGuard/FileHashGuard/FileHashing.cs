@@ -4,7 +4,6 @@ using System.Security.Cryptography;
 
 /*
  *  By Vallejo Juan Marcos
- *
  *  * */
 
 namespace FileHashGuard
@@ -51,9 +50,9 @@ namespace FileHashGuard
                 }
                 return _hash;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw new Exception("Error encrypting the specified file.");
+                throw ex;
             }
         }
     }
